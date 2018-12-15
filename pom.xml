@@ -15,4 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+<distributionManagement>
+    <repository>
+      <id>Nexus</id>
+      <name>nexus</name>
+      <url>http://192.168.33.10:8081</url>
+    </repository>
+  </distributionManagement>
 </project>
