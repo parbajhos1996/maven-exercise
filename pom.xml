@@ -17,10 +17,9 @@
   </dependencies>
 
 <distributionManagement>
-    <repository>
-      <id>Nexus</id>
-      <name>nexus</name>
-      <url>http://192.168.33.10:8081/nexus/content/repositories/snapshots</url>
-    </repository>
+    <snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://192.168.33.10:8081/nexus/content/repositories/Valami/</url>
+		</snapshotRepository>
   </distributionManagement>
 </project>
